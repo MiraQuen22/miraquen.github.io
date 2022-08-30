@@ -1,0 +1,44 @@
+head {
+    display: block;
+}
+Body {
+    margin: 10% 20% black;
+    background: rgb(91, 91, 156);
+    background-size: cover;
+    padding-left: 35%;
+    padding-top: 8%;
+}
+.card {
+    width: 370px;
+    border-top-width: 5px;
+    border-radius: 14px;
+    border-color: white;
+    background-color: white;
+    overflow: hidden;
+    position: absolute;
+    height: 550px;
+}
+.card-img-top {
+    border-radius: 14px;
+    width: 325px;
+    margin: 0;
+    position: relative;
+    left: 5px;
+    margin: 18px 5%;
+}
+.card-body{
+    padding: 15px 22%;
+    font-size: 14px;
+    text-align: center;
+    text-indent: -5x;
+    padding-left: 55px;
+}
+.card-body h2 {
+    font-size: 20px;
+    font-weight: 650;
+    font-family: Outfit,Inter,sans-serif;
+}
+.card-body p {
+    color: grey;
+    padding-top: 10px;
+}
